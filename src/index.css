@@ -1,0 +1,114 @@
+ *{
+    padding: 0;
+    margin: 0;
+
+ }
+
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(70, 136, 202);
+    color: white;
+    padding: 10px;
+ }
+
+ .lo{
+   font-weight: 900;
+   font-size: 2rem;
+ }
+
+ ul{
+    display: flex;
+    gap: 9px;
+    list-style: none;
+    align-items: center;
+    font-size: 1.2rem;
+ }
+
+ li{
+   cursor: pointer;
+ }
+
+ li:hover{
+    font-weight: bold;
+    
+ }
+ 
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    align-items: center;
+    gap: 13px;
+    min-height: 100vh;
+    background-color: rgb(70, 136, 202, 0.3);
+    margin: 40px;
+    margin-top: 20px;
+    border-radius: 18px;
+   
+  }
+
+ .header{
+    font-size: 29px;
+    font-weight: 800;
+ }
+
+ input{
+    display: flex;
+    border: white;
+    width: 22vw;
+    border-radius: 11px;
+    padding: 13px;
+ }
+
+ .hero{
+    display: flex;
+    gap: 9px;
+ }
+
+ .add{
+    padding: 9px;
+    border-radius: 12px;
+    width: 5vw;
+    border: white;
+    background-color: rgb(60, 42, 218);
+    color: white;
+ }
+
+ p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    width: 37vw;
+ }
+
+ .remove{
+    padding: 8px;
+    border-radius: 12px;
+    border: white;
+    background-color: rgb(60, 42, 218);
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .listData{
+    font-size: 25px;
+ }
+
+ .btn{
+    padding: 14px;
+    border-radius: 12px;
+    border: white;
+    background-color: rgb(60, 42, 218);
+    color: white;
+    margin-top: 32px;
+    font-weight: 500;
+ }
+
+ button:hover{
+    background-color: rgb(2, 2, 116);
+ }
