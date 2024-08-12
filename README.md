@@ -77,10 +77,9 @@ Project Structure
     │   ├── index.html
     ├── src/
     │   ├── components/
-    │   │   ├── TodoItem.jsx
-    │   │   ├── TodoList.jsx
+    │   │   ├── Todo.jsx
     │   ├── styles/
-    │   │   ├── styles.js
+    │   │   ├── styles.css
     │   ├── App.jsx
     │   ├── main.jsx
     ├── package.json
