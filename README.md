@@ -20,7 +20,6 @@ This is a simple Todo List application built using React and Vite. The applicati
 Explore the live demo of the Todo list [here](https://www.linkedin.com/posts/chirag-a-79382a302_reactjs-webdevelopment-productivityapp-activity-7215982819439734784-dIQd?utm_source=share&utm_medium=member_desktop).
 
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -35,18 +34,23 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-list-react-vite.git
+   git clone https://https://github.com/chiragarya67/Todo_list.git
+   
 
-   Navigate to the project directory:
-cd todo-list-react-vite
+2. Navigate to the project directory:
 
-Install the dependencies:
-npm install
+    ```bash
+    cd Todo_list
 
-Running the Application
+3. Install the dependencies:
+    ```bash 
+    npm install
+
+## Running the Application
 To start the development server, run:
 
-npm run dev
+    ```bash
+     npm run dev
 
 The application will be available at http://localhost:3000.
 
