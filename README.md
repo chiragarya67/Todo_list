@@ -47,53 +47,53 @@ Make sure you have the following installed on your machine:
     npm install
 
 ## Running the Application
-To start the development server, run:
-
-    ```bash
+ To start the development server, run:
+  
+    
      npm run dev
+  
+  
+ The application will be available at http://localhost:3000.
 
-The application will be available at http://localhost:3000.
-
-Building for Production
+## Building for Production
 To build the application for production, run:
 
-npm run build
+    npm run build
 
 The production-ready files will be in the dist directory.
 
 Usage
 Open the application in your browser.
 Use the input field to add new tasks.
-Click on a task to mark it as completed.
 Click the delete button to remove a task.
+Click the remove all button to remove all tasks.
+
+
 Project Structure
-todo-list-react-vite/
-├── public/
-│   ├── index.html
-├── src/
-│   ├── components/
-│   │   ├── TodoItem.jsx
-│   │   ├── TodoList.jsx
-│   ├── styles/
-│   │   ├── styles.js
-│   ├── App.jsx
-│   ├── main.jsx
-├── package.json
-├── README.md
 
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any changes.
+    ```bash
+    todo-list/
+    ├── public/
+    │   ├── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── TodoItem.jsx
+    │   │   ├── TodoList.jsx
+    │   ├── styles/
+    │   │   ├── styles.js
+    │   ├── App.jsx
+    │   ├── main.jsx
+    ├── package.json
+    ├── README.md
 
-License
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgements
 React
 Vite
-Feel free to customize this README file to better fit your project’s specifics. If you have any more questions or need further assistance, feel free to ask!
 
-
-You can copy and paste this content into your `README.md` file. If you need any more help, feel free to ask!
 
 
 - **Chirag Arya**
